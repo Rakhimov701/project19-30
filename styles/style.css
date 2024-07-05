@@ -18,5 +18,14 @@
 }
 
 .title:hover {
-    transform: translate(200px,200px);
+    transform: translate(200px,200px) rotate(360deg);
+}
+
+.main {
+    background: burlywood;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
